@@ -1,11 +1,26 @@
 
-  # Convert design to code
+  ## Installation
 
-  This is a code bundle for Convert design to code. The original project is available at https://www.figma.com/design/b7O4tqsEy50WFMnebAJTbS/Convert-design-to-code.
+  You can use either **npm** or **yarn**, but the dependency lock is currently managed with **npm**.
 
-  ## Running the code
+  - **With npm (recommended)**
+    - Run `npm install` to install dependencies.
 
-  Run `npm i` to install the dependencies.
+  - **With yarn**
+    - Make sure there is no stale `yarn.lock`.  
+    - Run `yarn install` to install dependencies.
 
-  Run `npm run dev` to start the development server.
+  ## Running the app (development)
+
+  - Using npm: `npm run dev`
+  - Using yarn: `yarn dev`
+
+  Then open `http://localhost:3000` in your browser.
+
+  ## Production build
+
+  - Using npm: `npm run build` then `npm start`
+  - Using yarn: `yarn build` then `yarn start`
+
+  This will run the optimized Next.js production build.
   
